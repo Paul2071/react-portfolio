@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-//import Logo from "../assets/logo2.png";
+import { FaBars, FaTimes, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -10,7 +7,7 @@ const Navbar = () => {
   const handleClick = () => setNavState(!navState);
 
   return (
-    <div className="fixed w-full h-[80px] flex flex-col justify-between items-center p-7 bg-slate-600 text-gray-300">
+    <div className="fixed w-full h-[80px] flex flex-col justify-between items-center p-7 bg-[#4F646F] text-gray-300">
     
       {/* menu */}
 
@@ -21,19 +18,20 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+           <Link to="about" smooth={true} duration={500}>
             About me
-          </Link>
+           </Link>
         </li>
         <li> 
+           <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
            <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>        
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link> 
+          
         </li>
         <li> 
             <Link to="contact" smooth={true} duration={500}>
@@ -73,44 +71,35 @@ const Navbar = () => {
       </ul>
 
       {/* social icons */}
-      <div className="hidden lg:flex  fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between border-2  items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://www.linkedin.com/in/paul-chamberlain-0609b4244/"  target="_blank" rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
         </ul>
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between border-2  items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://www.facebook.com/paul.chamberlain.961" target="_blank" rel="noreferrer"
             >
-              Github <FaGithub size={30} />
+              Facebook <FaFacebook size={30} />
             </a>
           </li>
         </ul>
+        
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between border-2  items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
+              href="https://twitter.com/pchamberlain12" target="_blank" rel="noreferrer"
             >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 "
-              href="/"
-            >
-              C.V <BsFillPersonLinesFill size={30} />
+             Twitter <FaTwitter size={30} />
             </a>
           </li>
         </ul>
