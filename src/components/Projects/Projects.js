@@ -1,5 +1,5 @@
 import React from "react";
-import Proficiency from "../assets/Proficiency.png";
+import Proficiency from   "../../assets/Proficiency.png"
 
 const Work = () => {
   return (

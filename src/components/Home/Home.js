@@ -12,7 +12,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold text-[#88b08d]'>I am a Junior Developer </h2>
             <p className='text-[#3cf73c] py-4 max-w-[700px]'>A recent graduate from the School of Code, I look forward to continuing my journey in tech and learning new skills. At the minute, I am focused on React and CSS and plan to broaden my knowledge of back-end tech-stacks next.   </p>
             <div>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>Scroll Down For More
+                <button className='text-white group border-2 px-6 py-3 my-2 rounded-2xl flex items-center hover:bg-[#56dcc3] hover:border-[#56dcc3] hover:text-[#535657]'>Scroll Down For More
                 
                 <span className='group-hover:rotate-90 duration-300'>
 
