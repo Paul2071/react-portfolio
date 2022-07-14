@@ -7,17 +7,17 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              About
+              About me
             </p>
           </div>
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hey again. I'm Paul. It's nice to meet you. Please, take a look around.</p>
+            <div className='sm:text-right text-4xl  font-bold'>
+              <p className=''>Hey again. For more detailed information about me, check out my C.V on the left.</p>
             </div>
             <div>
-              <p> With a BA in Politics and learning Japanese at University, I took the obvious career path and became a Bookseller. 11 years later, I discovered what kept me engaged for so long - my passion for learning. Now I want to use my passion and combine it with my problem solving skills to make full-stack applications.
+              <p className='text-justify'> With a BA in Politics and learning Japanese at University, I took the obvious career path and became a Bookseller. 11 years later, I discovered what kept me engaged for so long - my passion for learning. Now I want to use my passion and combine it with the inter=personal and problem solving skills I learned to work as part of a team to create applications.
 
 
               </p>  
