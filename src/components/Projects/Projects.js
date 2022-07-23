@@ -39,6 +39,8 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WeatherApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -46,10 +48,10 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl font-bold bg-gray-700 p-4 rounded-lg tracking-wider">
-                Proficiency Tracker
+                TS WeatherApp
               </span>
               <div className="pt-8 text-center">
-              <a href="/">
+              <a href="https://tsweatherapp12.netlify.app/" target="_blank" rel="noreferrer" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
                     Demo
                   </button>
