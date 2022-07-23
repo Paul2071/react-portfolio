@@ -1,5 +1,6 @@
 import React from "react";
 import Proficiency from   "../../assets/Proficiency.png"
+import WeatherApp from "../../assets/WeatherApp.png"
 
 const Work = () => {
   return (
@@ -39,7 +40,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Proficiency})` }}
+            style={{ backgroundImage: `url(${WeatherApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -53,7 +54,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Paul2071/ts-weather-app" target="_blank" rel="noreferrer" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
                     Code
                   </button>
