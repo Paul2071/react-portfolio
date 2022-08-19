@@ -1,7 +1,7 @@
 import React from "react";
-import Proficiency from   "../../assets/Proficiency.png"
 import WeatherApp from "../../assets/WeatherApp.png"
 import BoKApp from "../../assets/BoKApp.png"
+import CastleLog from "../../assets/CastleLog.png"
 
 const Work = () => {
   return (
@@ -67,21 +67,21 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Proficiency})` }}
+            style={{ backgroundImage: `url(${CastleLog})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl font-bold bg-gray-700 p-4 rounded-lg tracking-wider">
-                Proficiency Tracker
+                Castle-logue
               </span>
               <div className="pt-8 text-center">
-              <a href="/">
+              <a href="https://castlelogue.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Paul2071/castle-nextjs" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
                     Code
                   </button>
