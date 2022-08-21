@@ -5,13 +5,13 @@ import CastleLog from "../../assets/CastleLog.png"
 
 const Work = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="projects" className="w-full md:h-screen pt-20 pb-20 text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Projects
           </p>
-          <p className="py-6">My most recent projects. Hover over each image for a "Demo" and "Code" link</p>
+          <p className="py-6">Hover over or click each image for a "Demo" and "GitHub" link. The GitHub README offers context for each project</p>
         </div>
 
         {/* Container */}
@@ -34,7 +34,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/SchoolOfCode/final-project_back-end-hackson5" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
-                    Code
+                    GitHub
                   </button>
                 </a>
               </div>
@@ -59,7 +59,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/Paul2071/ts-weather-app" target="_blank" rel="noreferrer" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
-                    Code
+                  GitHub
                   </button>
                 </a>
               </div>
@@ -83,7 +83,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/Paul2071/castle-nextjs" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg">
-                    Code
+                  GitHub
                   </button>
                 </a>
               </div>

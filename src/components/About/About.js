@@ -14,13 +14,12 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl  font-bold'>
-              <p className=''>Hey again. For more detailed information about me, check out my C.V in the "Contact" section. </p>
+              <p className=''>Hey again. A few hobbies of mine - books, board games and playing cricket. </p>
               
               
             </div>
             <div>
-              <p className='text-justify'> With a BA in Politics and learning Japanese at University, I took the obvious career path and became a Bookseller. 11 years later, I discovered what kept me engaged for so long - my passion for learning. Now I want to use my passion and combine it with the interpersonal and problem solving skills I learned to work as part of a team to create applications.
-
+              <p className='text-justify'> With a BA in Politics and learning Japanese at University, I took the obvious career path and became a Bookseller. After 11 wonderful years, I wanted something a little more fulfilling from my career and re-trained through the School of Code. Whilst at School of Code, I learnt how to solve problems using code how to work in a tech team
 
               </p>  
             </div>
