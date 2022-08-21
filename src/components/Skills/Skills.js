@@ -79,8 +79,8 @@ const Skills = () => {
             <p className="my-4">AUTH0</p>
           </div>
           <div className="shadow-md shadow-[#040c16] bg-[#6d7072] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-5" src={PostgreSQl} alt="PostgreSQl icon" />
-            <p className="my-4">PostgreSQl</p>
+            <img className="w-20 mx-auto mt-5" src={PostgreSQl} alt="PostgreSQL icon" />
+            <p className="my-4">PostgreSQL</p>
           </div>
 
           </div>
